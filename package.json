@@ -2,7 +2,7 @@
   "name": "notesnode",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,10 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/Skeeb32/NotesNode.git"
   },
-  "author": "",
+  "author": "Jacob Spooner, Shaqib Habib",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Skeeb32/NotesNode/issues"
   },
-  "homepage": "https://github.com/Skeeb32/NotesNode#readme"
+  "homepage": "https://github.com/Skeeb32/NotesNode#readme",
+  "dependencies": {
+    "yargs": "^17.3.0"
+  }
 }
